@@ -1,0 +1,51 @@
+! name: Decorporate
+! description: Prioritize sites that aren't owned by a "do be evil" corporation, don't engage in censorship, forced content, etc, with a lens towards what I personally find value in.
+! public: true
+! author: okkays
+! homepage: https://github.com/okkays
+! issues: https://github.com/okkays/decorporate.goggle/issues
+! avatar: #458588
+! license: CC0
+
+! ============================================================
+! Corporate capture sites (DOWNRANK HARD)
+! ============================================================
+$downrank=10,site=reddit.com
+$downrank=10,site=tiktok.com
+
+! ============================================================
+! BOOST — Known good social sites
+! ============================================================
+$boost=10,site=lemmy.ml
+$boost=10,site=piefed.social
+
+! ============================================================
+! BOOST — Known good other sites
+! ============================================================
+$boost=9,site=stackoverflow.com
+$boost=8,site=python.org
+$boost=8,site=flutter.dev
+$boost=8,site=pub.dev
+$boost=8,site=dart.dev
+/flutter/$boost=4,site=github.com
+/dart-lang/$boost=4,site=github.com
+
+! ============================================================
+! DOWNRANK - Sites with poorly edited content
+! ============================================================
+$downrank=6,site=medium.com
+$downrank=8,site=dev.to
+$downrank=8,site=guru99.com
+$downrank=8,site=javatpoint.com
+$downrank=8,site=tutorialspoint.com
+$downrank=8,site=geeksforgeeks.org
+$downrank=8,site=w3schools.com
+$downrank=8,site=simplilearn.com
+$downrank=8,site=mindorks.com
+$downrank=8,site=androidhive.info
+
+! ============================================================
+! DOWNRANK — OUTDATED & SPAM CONTENT
+! ============================================================
+/affiliate/$downrank=6
+/sponsored/$downrank=6
