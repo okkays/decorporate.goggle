@@ -67,7 +67,7 @@ $downrank=8,site=netvorker.com
 $downrank=8,site=smartblogger.com
 $downrank=8,site=tagembed.com
 $downrank=8,site=mashflu.com
-/blog/$downrank=8,
+/blog/$downrank=8
 
 ! ============================================================
 ! DOWNRANK — OUTDATED & SPAM CONTENT
