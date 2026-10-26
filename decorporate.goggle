@@ -1,6 +1,6 @@
 ! name: Decorporate
 ! description: Prioritize sites that aren't owned by a "do be evil" corporation, don't engage in censorship, forced content, etc, with a lens towards what I personally find value in.
-! public: true
+! public: false
 ! author: okkays
 ! homepage: https://github.com/okkays
 ! issues: https://github.com/okkays/decorporate.goggle/issues
@@ -26,11 +26,16 @@ $boost=10,site=mastodon.social
 ! ============================================================
 ! BOOST — Known good other sites
 ! ============================================================
-$boost=9,site=stackoverflow.com
-$boost=8,site=python.org
-$boost=8,site=flutter.dev
-$boost=8,site=pub.dev
-$boost=8,site=dart.dev
+$boost=5,site=wikipedia.org
+$boost=5,site=stackoverflow.com
+$boost=5,site=clevelandclinic.org
+$boost=5,site=mayoclinic.org
+$boost=5,site=who.int
+$boost=4,site=nih.gov
+$boost=5,site=python.org
+$boost=5,site=flutter.dev
+$boost=5,site=pub.dev
+$boost=5,site=dart.dev
 /flutter/$boost=4,site=github.com
 /dart-lang/$boost=4,site=github.com
 $boost=4,site=alternativeto.net
