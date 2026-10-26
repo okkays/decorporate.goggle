@@ -12,12 +12,16 @@
 ! ============================================================
 $downrank=10,site=reddit.com
 $downrank=10,site=tiktok.com
+$downrank=10,site=salesforce.com
+$downrank=10,site=accenture.com
 
 ! ============================================================
 ! BOOST — Known good social sites
 ! ============================================================
 $boost=10,site=lemmy.ml
 $boost=10,site=piefed.social
+$boost=10,site=substack.com
+$boost=10,site=mastodon.social
 
 ! ============================================================
 ! BOOST — Known good other sites
@@ -29,9 +33,11 @@ $boost=8,site=pub.dev
 $boost=8,site=dart.dev
 /flutter/$boost=4,site=github.com
 /dart-lang/$boost=4,site=github.com
+$boost=4,site=alternativeto.net
+$boost=4,site=producthunt.com
 
 ! ============================================================
-! DOWNRANK - Sites with poorly edited content
+! DOWNRANK - Sites with poorly edited content, generic listicles, etc
 ! ============================================================
 $downrank=6,site=medium.com
 $downrank=8,site=dev.to
@@ -43,6 +49,25 @@ $downrank=8,site=w3schools.com
 $downrank=8,site=simplilearn.com
 $downrank=8,site=mindorks.com
 $downrank=8,site=androidhive.info
+$downrank=8,site=digitalauxilius.com
+$downrank=8,site=nerdculture.com
+$downrank=8,site=ngssolution.com
+$downrank=8,site=bettermode.com
+$downrank=8,site=rigorousthemes.com
+$downrank=8,site=spocket.com
+$downrank=8,site=techverdi.com
+$downrank=8,site=gtechme.com
+$downrank=8,site=beebom.com
+$downrank=8,site=begindot.com
+$downrank=8,site=jigrotech.com
+$downrank=8,site=tekrevol.com
+$downrank=8,site=businessinsider.com
+$downrank=8,site=nichepursuits.com
+$downrank=8,site=netvorker.com
+$downrank=8,site=smartblogger.com
+$downrank=8,site=tagembed.com
+$downrank=8,site=mashflu.com
+/blog/$downrank=8,
 
 ! ============================================================
 ! DOWNRANK — OUTDATED & SPAM CONTENT
