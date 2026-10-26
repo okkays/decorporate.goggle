@@ -19,10 +19,10 @@ $downrank=10,site=amazon.com
 ! ============================================================
 ! BOOST — Known good social sites
 ! ============================================================
-$boost,site=lemmy.ml
-$boost,site=piefed.social
-$boost,site=substack.com
-$boost,site=mastodon.social
+$boost=6,site=lemmy.ml
+$boost=6,site=piefed.social
+$boost=4,site=substack.com
+$boost=6,site=mastodon.social
 
 ! ============================================================
 ! BOOST — Known good other sites
