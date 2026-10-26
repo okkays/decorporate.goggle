@@ -41,6 +41,8 @@ $boost,site=dart.dev
 /dart-lang/$boost,site=github.com
 $boost,site=alternativeto.net
 $boost,site=producthunt.com
+$boost,site=outdoorgearlab.com
+$boost,site=hownot2.com
 
 ! ============================================================
 ! DOWNRANK - Sites with poorly edited content, generic listicles, etc
