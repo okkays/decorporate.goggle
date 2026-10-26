@@ -73,6 +73,8 @@ $discard,site=netvorker.com
 $discard,site=smartblogger.com
 $discard,site=tagembed.com
 $discard,site=mashflu.com
+$discard,site=realpython.com
+$discard,site=digitalocean.com
 /blog/$downrank=8
 
 ! ============================================================
